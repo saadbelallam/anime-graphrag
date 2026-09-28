@@ -1,0 +1,95 @@
+[
+  {"question": "Quel studio a produit Fullmetal Alchemist: Brotherhood ?",
+   "expected_mode": "graph", "expected_contains": ["Bones"]},
+
+  {"question": "Qui a composé la musique de Shingeki no Kyojin ?",
+   "expected_mode": "graph", "expected_contains": ["Sawano"]},
+
+  {"question": "Qui a réalisé Death Note ?",
+   "expected_mode": "graph", "expected_contains": ["Araki"]},
+
+  {"question": "Quelle est la suite directe de Shingeki no Kyojin ?",
+   "expected_mode": "graph", "expected_contains": ["Season 2", "2nd Season"]},
+
+  {"question": "Combien d'anime du studio Kyoto Animation y a-t-il dans la base ?",
+   "expected_mode": "graph", "expected_contains": []},
+
+  {"question": "Quels anime ont été réalisés par Shinichirou Watanabe ?",
+   "expected_mode": "graph", "expected_contains": ["Cowboy Bebop", "Samurai Champloo"]},
+
+  {"question": "Quels anime le studio ufotable a-t-il produits ?",
+   "expected_mode": "graph", "expected_contains": ["Kimetsu", "Fate"]},
+
+  {"question": "De quel anime Steins;Gate 0 est-il la suite ou le spin-off ?",
+   "expected_mode": "graph", "expected_contains": ["Steins;Gate"]},
+
+  {"question": "Quel est l'anime le mieux noté du studio Madhouse dans la base ?",
+   "expected_mode": "graph", "expected_contains": []},
+
+  {"question": "Qui est le créateur original de One Piece ?",
+   "expected_mode": "graph", "expected_contains": ["Oda"]},
+
+  {"question": "Un anime mélancolique sur le deuil et la perte d'un proche",
+   "expected_mode": "vector",
+   "expected_contains": ["Violet Evergarden", "Clannad", "Ano Hi Mita Hana",
+                         "Plastic Memories", "3-gatsu", "Koe no Katachi"]},
+
+  {"question": "Un thriller psychologique avec des jeux d'esprit entre deux génies",
+   "expected_mode": "vector",
+   "expected_contains": ["Death Note", "Code Geass", "Kaiji", "No Game"]},
+
+  {"question": "Un anime de sport sur le volleyball",
+   "expected_mode": "vector", "expected_contains": ["Haikyuu"]},
+
+  {"question": "De la dark fantasy violente dans un monde médiéval",
+   "expected_mode": "vector",
+   "expected_contains": ["Berserk", "Goblin Slayer", "Claymore", "Overlord",
+                         "Vinland"]},
+
+  {"question": "Une comédie romantique au lycée, légère et drôle",
+   "expected_mode": "vector",
+   "expected_contains": ["Kaguya", "Toradora", "Horimiya", "Nisekoi",
+                         "Gekkan", "Shikimori"]},
+
+  {"question": "Un anime contemplatif sur la vie quotidienne à la campagne",
+   "expected_mode": "vector",
+   "expected_contains": ["Non Non Biyori", "Barakamon", "Yuru Camp",
+                         "Gin no Saji", "Natsume"]},
+
+  {"question": "Un anime de science-fiction sur les voyages dans le temps",
+   "expected_mode": "vector",
+   "expected_contains": ["Steins;Gate", "Boku dake", "Re:Zero",
+                         "Tokyo Revengers", "Orange"]},
+
+  {"question": "J'ai adoré Violet Evergarden, je cherche quelque chose d'aussi émouvant fait par le même studio",
+   "expected_mode": "hybrid",
+   "expected_contains": ["Koe no Katachi", "CLANNAD", "Hibike", "AIR",
+                         "Kanon", "Hyouka"]},
+
+  {"question": "Un anime avec la même ambiance musicale épique que Shingeki no Kyojin, du même compositeur",
+   "expected_mode": "hybrid",
+   "expected_contains": ["Kabaneri", "Aldnoah", "86", "Guilty Crown",
+                         "Kill la Kill", "Gundam"]},
+
+  {"question": "Quelque chose de sombre et tendu par le réalisateur de Death Note",
+   "expected_mode": "hybrid",
+   "expected_contains": ["Shingeki", "Kabaneri", "Guilty Crown", "HIGHSCHOOL"]},
+
+  {"question": "Un anime dans le même genre que One Punch Man, avec le même ton parodique",
+   "expected_mode": "hybrid",
+   "expected_contains": ["Mob Psycho", "Gintama", "Saiki"]},
+
+  {"question": "J'ai fini Kimetsu no Yaiba, un autre anime aussi beau visuellement du même studio ?",
+   "expected_mode": "hybrid",
+   "expected_contains": ["Fate", "Kara no Kyoukai", "Katsugeki", "Tales of"]},
+
+  {"question": "Un anime aussi émouvant que Clannad After Story",
+   "expected_mode": "hybrid",
+   "expected_contains": ["CLANNAD", "AIR", "Kanon", "Angel Beats",
+                         "Ano Hi Mita Hana", "Little Busters"]},
+
+  {"question": "Quelque chose dans l'esprit de Cowboy Bebop, jazz et mélancolie, idéalement la même équipe",
+   "expected_mode": "hybrid",
+   "expected_contains": ["Samurai Champloo", "Space Dandy", "Carole",
+                         "Sakamichi", "Zankyou"]}
+]
