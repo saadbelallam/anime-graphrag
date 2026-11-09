@@ -1,11 +1,3 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Neo4j-5.x-008CC1?style=for-the-badge&logo=neo4j&logoColor=white" alt="Neo4j" />
-  <img src="https://img.shields.io/badge/LLM-OpenAI--compatible-412991?style=for-the-badge" alt="LLM" />
-  <img src="https://img.shields.io/badge/Data-AniList%20GraphQL-02A9FF?style=for-the-badge" alt="AniList" />
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT" />
-</p>
-
 # 🕸️ anime-graphrag
 
 > **Ask questions about anime in plain French. Get answers grounded in a knowledge graph, not in a language model's memory.**
